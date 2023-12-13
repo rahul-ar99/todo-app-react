@@ -7,6 +7,7 @@ const TodoList = () => {
     const [modal, setModal] = useState(false);
     const [taskList, setTaskList] = useState([])
 
+    
     useEffect(() => {
         let arr = localStorage.getItem("taskList")
         if(arr){
